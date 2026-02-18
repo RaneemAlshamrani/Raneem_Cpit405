@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Lab 4 - Order Form</title>
+
+<style>
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+}
+
+.container {
+    width: 600px;
+    margin: auto;
+    background-color: white;
+    padding: 20px;
+}
+
+h1 {
+    text-align: center;
+}
+
+label {
+    display: block;
+    margin-top: 15px;
+    font-weight: bold;
+}
+
+input, select, textarea {
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+    border: 1px solid #ccc;
+}
+
+textarea {
+    height: 120px;
+}
+
+button {
+    width: 100%;
+    padding: 12px;
+    margin-top: 15px;
+    background-color: black;
+    color: white;
+    border: none;
+    font-size: 16px;
+}
+
+button:hover {
+    background-color: #333;
+}
+
+</style>
+
+</head>
+
+<body>
+
+<div class="container">
+
+<h1>Great Auto Parts - Order Form</h1>
+
+<form>
+
+<label>First Name:</label>
+<input type="text" placeholder="Enter your first name">
+
+<label>Last Name:</label>
+<input type="text" placeholder="Enter your last name">
+
+<label>Email:</label>
+<input type="email" placeholder="Enter your email address">
+
+<label>Phone number:</label>
+<input type="text" placeholder="Enter your phone number">
+
+<label>Make:</label>
+<input type="text" placeholder="Make">
+
+<label>Model:</label>
+<input type="text" placeholder="Model">
+
+<label>Year:</label>
+<select>
+<option>Year</option>
+<option>2024</option>
+<option>2023</option>
+<option>2022</option>
+<option>2021</option>
+<option>2020</option>
+</select>
+
+<label>Date:</label>
+<input type="date">
+
+<label>Spare Part:</label>
+<input type="text" placeholder="Enter the spare part you need">
+
+<label>Quantity:</label>
+<input type="number" placeholder="Enter the quantity of the spare part you need">
+
+<label>Comment:</label>
+<textarea placeholder="Enter your comment"></textarea>
+
+<button type="submit">Submit</button>
+
+</form>
+
+</div>
+
+</body>
+</html>
