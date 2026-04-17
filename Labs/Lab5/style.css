@@ -1,0 +1,28 @@
+body {
+  font-family: Arial;
+  padding: 20px;
+}
+
+.dark {
+  background-color: #111;
+  color: white;
+}
+
+.dark table {
+  color: white;
+}
+
+input, select, button {
+  margin: 10px 5px;
+  padding: 5px;
+}
+
+table {
+  margin-top: 20px;
+  border-collapse: collapse;
+}
+
+th, td {
+  padding: 10px;
+  text-align: left;
+}
